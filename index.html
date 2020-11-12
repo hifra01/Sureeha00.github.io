@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -81,7 +82,7 @@
               <label for="formPertanyaan" class="form__label">Pertanyaan</label>
               <textarea id="formPertanyaan" name="formPertanyaan" class="form__textarea"></textarea>
             </div>
-            <input type="submit" class="form__button__submit" value="Kirim Pertanyaan">
+            <input type="submit" id="formSubmit" class="form__button__submit" value="Kirim Pertanyaan">
           </form>
         </div>
       </section>
@@ -90,6 +91,9 @@
   <footer>
     <p>&copy; 2020 - TH-ID Project</p>
   </footer>
+  <div id="notificationContainer"></div>
+  <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
